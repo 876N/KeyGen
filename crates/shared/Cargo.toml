@@ -1,0 +1,14 @@
+[package]
+name = "kg_shared"
+version = "2.0.0"
+edition = "2021"
+
+[lib]
+name = "kg_shared"
+path = "src/lib.rs"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.52", features = [
+    "Win32_Foundation",
+    "Win32_Security_Cryptography",
+] }
