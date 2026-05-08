@@ -1,7 +1,7 @@
 # KeyGen
 
 > **Executable Protection & License Management Tool**
-
+![image](https://i.ibb.co/gbfhR9f0/image.png)
 Protects Windows executables (Native & .NET) with AES-256 encryption, hardware-locked license keys, and anti-tamper mechanisms.
 
 ---
